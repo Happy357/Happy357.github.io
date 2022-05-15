@@ -1,0 +1,272 @@
+body{ font-family: Arial, sans-serif}
+nav {
+    width: 100%;
+    height: 60px;
+    background: #344051;
+}
+.logo{ 
+    color: white;
+    font-size: 28px;
+    line-height: 60px;
+    padding-left: 388px;
+    float: left;
+}
+.menu{
+    float: left;
+    padding-left:  432px;
+}  
+    .menu li {
+    float: left;
+    line-height: 60px;
+    color: white;
+    margin-right: 40px;
+    font-size: 16;
+    text-transform: uppercase;
+}
+.main{
+    width: 100%;
+    height: calc(100% - 60px);
+    background:  url(../img/boy.png) 90% 100%/auto 85% no-repeat, url(../img/bg.jpg)center/cover no-repeat;
+    
+}
+.titie_conteiner {
+    float: left;
+    margin: 432px 0px 0px 304px;
+    color: #2c384a;
+    text-align: center;    
+}
+.titie_conteiner h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+.titie_conteiner h4{
+    margin-top: 40px;
+    font-size: 22px;
+    color: #79818d;
+}
+.titie_conteiner input{
+    height: 40px;
+    text-align: center;
+    border: 2px solid #6d7682 ;
+    background: none;
+    border-radius: 5px;
+    color: #6d7682;
+    font-size: 13px;
+    padding: 0px 16px;
+    margin: 38px 14px 0px 14px;
+}
+.aboutme img{
+    margin: 60px 0px 0px 820px
+}
+.aboutme p{
+    font-size:11;
+    text-align: left;
+    margin: 24px 595px 18px 595px;
+}
+.aboutme input{
+    text-align: center;
+    border: 2px solid #6d7682 ;
+    background: url(../img/download.png) 11px /13px 13px no-repeat; 
+    border-radius: 5px;
+    color: #6d7682;
+    font-size: 13px;
+    padding: 9px 12px 9px 32px;
+    margin: 38px 480px 97px 850px;
+    
+}
+.ican{
+    background: url(../img/fonican.jpg) center/cover no-repeat;
+}
+.allskils{text-align: center; }
+.skils {
+    margin: 103px 41px 0px 41px;
+    padding-bottom: 93px;
+    display: inline-block;
+    width: 212px;
+}
+.skils h4{
+    color: #cf7600;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 37px;
+}
+.skils p{
+    text-align: center;
+    margin-top: 22px
+}
+.keis p{
+    text-align: center;
+    margin: 37px 0px 42px 0px;
+}
+.keis img{
+    margin-left: 390px;
+    margin-bottom: 46px;
+}
+.subtitle h3{
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 389px;
+}
+.subtitle p{
+    text-align: left;
+    margin: 0px 0px 17px 389px;
+}
+#text{
+    margin: -120px 400px 0px 285px;   
+}
+.keis input{
+    height: 40px;
+    text-align: center;
+    border: 2px solid;
+    background:#63b5ae;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    padding: 0px 43px;
+    margin: 38px 14px 0px 389px;
+}
+.submit{text-align: center;
+    border: 2px solid #6d7682 ;
+    background: url(../img/download.png) 11px /13px 13px no-repeat; 
+    border-radius: 5px;
+    color: #6d7682;
+    font-size: 13px;
+    padding: 9px 12px 9px 32px;}
+.price .subtitle{
+    margin-top: 50px;
+    margin-left: 499px;
+    font-weight: bold;
+    font-size: 21px;
+
+}
+.price select{
+    width: 892px;
+    height: 58px;
+    background: #eeeeee;
+    margin-top: 25px;
+     margin-left: 499px;
+}
+.price hr{
+    background-color:#d1d1d1;
+    height: 2px;
+    margin: 38px 0px 28px 499px;
+    width: 892px;
+}
+.price table{
+    width: 892px;
+    font-size: 20px;
+    font-weight: bold; 
+    margin: 0px 0px 154px 499px;
+}
+.price table td{
+    padding: 12px 0px 12px 0px;
+}
+.price table td:last-child{
+    text-align:right;
+}
+.statistics{
+    background: url(../img/fonstatistik.jpg) center/cover no-repeat;
+    text-align: center
+}
+.stat{
+    margin: 89px 76px 102px 76px;
+    display: inline-block;
+}
+.stat h4{margin-top: 32px;
+font-size: 28px;
+font-weight: bold;}
+.stat p{
+    font-size: 15px;
+    margin-top: 30px;
+    font-weight: bold;
+    
+}
+.revievs {
+    text-align: center;
+}
+.revievs img{
+    margin-top: 50px;
+    margin-bottom: 36px;
+}
+.revievs p{ 
+    margin-bottom: 36px;
+}
+.skroller{
+    margin-top: 50px;
+    padding-bottom: 92px;
+}
+.skroller img{ 
+    margin: 0px 14px 0px 14px;
+}
+.form{
+    width: 100%;
+    background: url(../img/fonkontkts.jpg) center/cover no-repeat;
+    text-align: center;
+
+}
+.contakts{
+    display: inline-block;
+}
+.title {
+    padding-top: 108px;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold; 
+}
+.title img{
+    margin: 31px 860px 0px 860px;
+}
+.form p{
+    margin-top: 33px;
+    color: white;
+}
+.contakts{
+    display: inline-block;
+    margin: 45px 50px 40px 50px;
+    line-height: 1.5;
+}
+.messege{
+
+}
+.messege h3{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.form .mailandname{
+    width: 352px;
+    height: 34px;
+    margin: 14px 12px 14px 14px;
+    
+}
+.form textarea{
+    height: 94px;
+    width: 732px;
+    
+}
+#submit{
+    height: 40px;
+    text-align: center;
+    border: 2px solid white ;
+    background: none;
+    border-radius: 5px;
+    color: white;
+    height: 46px;
+    width: 125px;
+    font-size: 13px;
+    padding: 0px 16px;
+    margin: 28px 0px 168px 0px;
+}
+.form .title{
+    color: white;
+}
+footer{
+    width: 100%;
+    height: 94px;
+    background: #344051;
+    text-align: center;
+}
+footer p{ 
+    color: white;
+    padding-top: 41px;
+}
