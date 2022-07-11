@@ -472,7 +472,9 @@ footer p {
     .titie_conteiner input {
         border: 2px solid #fff;
     }
-   
+    .revievs .title{
+        text-align: center;
+    }
     .main::after{
         content: '';
         bottom: 0;
@@ -515,4 +517,76 @@ footer p {
 }
     
 
+}
+@media screen and (max-width: 768px){
+    .form .mailandname{
+        width: 520px;
+        margin-left: 0px;
+         margin-right: 0px;
+        
+    }
+    .form textarea{
+        width: 520px;
+    }
+.price select {
+    width: 520px;
+    
+    height: 58px;
+
+    margin-top: 25px;
+    }
+.price hr {
+    
+    width: 520px;
+}
+.price table {
+    width: 520px;
+    }}
+@media screen and (max-width: 576px){
+    .form .mailandname{
+        width: 320px;
+        margin-left: 0px;
+         margin-right: 0px;
+        
+    }
+    .form textarea{
+        width: 320px;
+    }
+.price select {
+    width: 320px;
+    
+    height: 58px;
+
+    margin-top: 25px;
+    }
+.price hr {
+    
+    width: 320px;
+}
+.price table {
+    width: 320px;
+    }
+    .price .submit{
+        margin-right: 50px;
+    }
+}
+@media screen and (max-width: 420px){
+   
+.price select {
+    width: 290px;
+    
+    height: 58px;
+
+    margin-top: 25px;
+    }
+.price hr {
+    
+    width: 290px;
+}
+.price table {
+    width: 290px;
+    }
+    .price .submit{
+        margin-right: 50px;
+    }
 }
