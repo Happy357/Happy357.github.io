@@ -1,0 +1,518 @@
+body {
+    font-family: Arial, sans-serif
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background: #344051;
+    position: fixed;
+    z-index: 10;
+}
+
+.logo {
+    color: white;
+    font-size: 28px;
+    line-height: 60px;
+    float: left;
+    animation: comming 2s;
+    font-weight: 100;
+}
+
+.menu {
+    float: left;
+    animation: topshift 0.4s ease forwards;
+
+}
+
+.menu li {
+    float: left;
+    line-height: 60px;
+    color: white;
+    margin-right: 40px;
+    font-size: 16;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.menu li a {
+    text-decoration: none;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    background: url(../img/boy.png) 90% 100%/auto 85% no-repeat, url(../img/bg.jpg)center/cover no-repeat;
+
+}
+
+.titie_conteiner {
+    float: left;
+    width: 100%;
+
+    color: #2c384a;
+    text-align: center;
+}
+
+.titie_conteiner h1 {
+    font-size: 72px;
+    font-weight: bold;
+}
+
+.titie_conteiner h4 {
+    margin-top: 40px;
+    font-size: 22px;
+    color: #79818d;
+}
+
+.titie_conteiner input {
+    height: 40px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius: 5px;
+    color: #6d7682;
+    font-size: 13px;
+    padding: 0px 16px;
+    margin: 38px 14px 0px 14px;
+}
+.aboutme{
+text-align: center;}
+.aboutme p {
+    font-size: 11;
+    text-align: left;
+    margin: 24px 0px 18px 0px;
+}
+
+.aboutme input {
+
+    border: 2px solid #6d7682;
+    background: url(../img/download.png) 11px /13px 13px no-repeat;
+    border-radius: 5px;
+    color: #6d7682;
+    font-size: 13px;
+    padding: 9px 12px 9px 32px;
+    margin: 38px 0px 97px 13px;
+    transition: all 0.2s;
+    transform: scale(1);
+    
+}
+
+.ican {
+    background: url(../img/fonican.jpg) center/cover no-repeat fixed;
+}
+
+.allskils {
+    text-align: center;
+}
+
+.skils {
+    margin: 103px 41px 0px 41px;
+    padding-bottom: 93px;
+    display: inline-block;
+
+}
+
+.skils h4 {
+    color: #cf7600;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 37px;
+}
+
+.skils p {
+    text-align: center;
+    margin-top: 22px
+}
+
+.keis p {
+    text-align: center;
+    margin: 37px 0px 42px 0px;
+}
+
+.keis img {
+
+    margin-bottom: 46px;
+}
+
+.subtitle h3 {
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.subtitle {
+    display: inline-block;
+    float: left;
+}
+
+.subtitle p {
+    text-align: left;
+    margin: 0px 0px 17px 0px;
+}
+
+
+.keis input {
+    height: 40px;
+    text-align: center;
+    border: 2px solid;
+    background: #63b5ae;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    padding: 0px 43px;
+    margin: 38px 0px 0px 0px;
+}
+
+.submit {
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: url(../img/download.png) 11px /13px 13px no-repeat;
+    border-radius: 5px;
+    color: #6d7682;
+    font-size: 13px;
+    padding: 9px 32px 9px 12px;
+}
+
+.price .subtitle {
+    margin-top: 50px;
+
+    font-weight: bold;
+    font-size: 21px;
+
+}.price form {text-align: left;}
+.price{
+    text-align: center;
+}
+.price select {
+    width: 892px;
+    height: 58px;
+    background: #eeeeee;
+    margin-top: 25px;
+
+}
+
+.price hr {
+    background-color: #d1d1d1;
+    height: 2px;
+    margin: 38px 0px 28px 0px;
+    width: 892px;
+}
+
+.price table {
+    width: 892px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.price table td {
+    padding: 12px 0px 12px 0px;
+}
+.price input{
+    height: 40px;
+    text-align: center;
+    border: 2px solid;
+    background: #63b5ae;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    padding: 0px 43px;
+    margin: 41px 0px 38px 0px;
+}
+.price table td:last-child {
+    text-align: right;
+}
+
+.statistics {
+    background: url(../img/fonstatistik.jpg) center/cover no-repeat fixed;
+    text-align: center
+}
+
+.stat {
+    margin: 89px 0px 102px 0px;
+    display: inline-block;
+}
+
+.stat h4 {
+    margin-top: 32px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.stat p {
+    font-size: 15px;
+    margin-top: 30px;
+    font-weight: bold;
+
+}
+
+.revievs {
+    text-align: center;
+}
+
+.revievs img {
+    margin-top: 50px;
+    margin-bottom: 36px;
+}
+
+.revievs p {
+    margin-bottom: 36px;
+}
+
+.skroller {
+    margin-top: 50px;
+    padding-bottom: 92px;
+}
+
+.skroller img {
+    margin: 0px 14px 0px 14px;
+}
+
+.form {
+    width: 100%;
+    background: url(../img/fonkontkts.jpg) center/cover no-repeat;
+    text-align: center;
+
+}
+
+.contakts {
+    display: inline-block;
+}
+
+.title {
+    padding-top: 108px;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+.form p {
+    margin-top: 33px;
+    color: white;
+}
+
+.contakts {
+    display: inline-block;
+    margin: 45px 0px 40px 0px;
+    line-height: 1.5;
+}
+
+.messege h3 {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+ .mailandname {
+    width: 352px;
+    height: 34px;
+    margin: 14px 12px 14px 12px;
+
+}
+
+.form textarea {
+    height: 94px;
+    width: 732px;
+
+}
+
+#submit {
+    height: 40px;
+    text-align: center;
+    border: 2px solid white;
+    background: none;
+    border-radius: 5px;
+    color: white;
+    height: 46px;
+    width: 125px;
+    font-size: 13px;
+    padding: 0px 16px;
+    margin: 28px 0px 168px 0px;
+    transition: all 0.2s;
+    transform: scale(1);
+}
+
+.form .title {
+    color: white;
+}
+
+footer {
+    width: 100%;
+    height: 94px;
+    background: #344051;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    padding-top: 41px;
+}
+
+.menu li a {
+    transition: all 0.1s;
+    color: white;
+    transform: scale(1);
+    display: inline-block;
+
+}
+
+.menu li a:visited {
+    color: white;
+}
+
+.menu li a:hover {
+    color: #e88604;
+
+}
+
+.menu li a:active {
+    transform: scale(1.1);
+}
+
+.titie_conteiner input {
+    transition: all 0.2s;
+    transform: scale(1);
+}
+
+.titie_conteiner input:hover {
+    background: #344051;
+    color: white;
+}
+
+.titie_conteiner input:active {
+    transform: scale(1.1);
+}
+
+@keyframes comming {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes topshift {
+    from {
+        opacity: 0;
+        margin-top: -80px;
+    }
+
+    to {
+        opacity: 1;
+        margin-top: 0px;
+
+    }
+}
+
+.aboutme input:hover {
+    background: url(../img/download%20white.png) 11px /13px 13px no-repeat,
+        #344051;
+    color: white;
+
+}
+
+.aboutme input:active {
+    transform: scale(1.1);
+}
+
+.keis input {
+    transition: all 0.2s;
+    transform: scale(1);
+}
+
+.keis input:hover {
+    background: #344051;
+    color: #e88604;
+    border: none;
+}
+
+.keis input:active {
+    transform: scale(1.1)
+}
+
+#submit:hover {
+    color: #e88604;
+    border-color: #e88604;
+}
+
+#submit:active {
+    transform: scale(1.1);
+}
+
+
+
+.white-btn:visited {
+    color: white;
+}
+
+@media screen and (max-width: 991px) {
+
+    .titie_conteiner,
+    .titie_conteiner h4,
+    .titie_conteiner input {
+        color: white;
+        position: relative;
+        z-index: 3;
+    }
+
+    .main {
+        position: relative;
+    }
+
+    .titie_conteiner input {
+        border: 2px solid #fff;
+    }
+   
+    .main::after{
+        content: '';
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        position: absolute;
+        background: rgba(0,0,0,0.4);
+        z-index: 2;
+        
+        
+    }
+}
+.title img{
+    margin-top: 10px;
+}
+@media screen and (max-width: 991px){
+     .form .mailandname{
+        width: 680px;
+        margin-left: 0px;
+         margin-right: 0px;
+        
+    }
+    .form textarea{
+        width: 680px;
+    }
+.price select {
+    width: 680px;
+    
+    height: 58px;
+
+    margin-top: 25px;
+    }
+.price hr {
+    
+    width: 680px;
+}
+.price table {
+    width: 680px;
+}
+    
+
+}

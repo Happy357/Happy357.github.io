@@ -1,0 +1,8 @@
+body{background:#ececec}
+.loader:before,.loader:after{position:absolute;top:50%;left:50%;border-radius:50%;border-style:solid;content:'';transform:translate(-50%,-50%);animation:rotate 1.5s infinite ease-in-out;border-color:#ECD078 #C02942 #542437 #53777A}
+.loader:before{border-width:10vh}
+.loader:after{width:30vh;height:30vh;border-width:2.5vh;animation-direction:reverse}
+@keyframes rotate {
+0%{transform:translate(-50%,-50%) rotate(0)}
+100%{transform:translate(-50%,-50%) rotate(360deg)}
+}
