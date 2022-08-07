@@ -6,3 +6,7 @@ body{background:#ececec}
 0%{transform:translate(-50%,-50%) rotate(0)}
 100%{transform:translate(-50%,-50%) rotate(360deg)}
 }
+.loader-remove{
+    opacity: o;
+    z-index: -10;
+}
