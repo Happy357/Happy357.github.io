@@ -44,7 +44,7 @@ $("select").on("change", function(){
     document.getElementById("modal-close").addEventListener("click", function(){
         modalwin.style.display="none";            
     });
-}, 10000); */
+}, 10000); 
  
     
 
@@ -170,16 +170,15 @@ $(function () {
         }
     });
 });
-  
-    //fotoloader
+  //fotoloader
     let PhotoOptions = {threshold: [0.5]};
-    let observer2 = new IntersectionObserver (onEntry, PhotoOptions);
+    let observer2 = new IntersectionObserver (onEntry2, PhotoOptions);
     let elements2 =$(".photo-low");
     elements2.each((i,el) => {
        observer2.observe (el);
     });
     
-function onEntry (entry){
+function onEntry2 (entry){
     entry.forEach(change => {
         if (change.isIntersecting){
             change.target.src = change.target.dataset.src;
@@ -187,6 +186,7 @@ function onEntry (entry){
     });
         
     ;}
+    
     //animation
    let options = {threshold: [0.5]};
     let observer = new IntersectionObserver (onEntry, options);
@@ -198,11 +198,13 @@ function onEntry (entry){
 function onEntry (entry){
     entry.forEach(change => {
         if (change.isIntersecting){
-            change.target.classList.add('show-animation');
+            change.target.classList.add("show-animation");
         }
     });
         
     };
+    
+    
        //scroller
   /* window.addEventListener('scroll',() => {
        let scrollDistance = window.scrollY;
