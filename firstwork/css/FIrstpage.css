@@ -1,0 +1,213 @@
+.loader{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    
+        
+    z-index: 100;
+    background-color: white;
+}
+.loader:before,.loader:after{position:absolute;top:50%;left:50%;border-radius:50%;border-style:solid;content:'';transform:translate(-50%,-50%);animation:rotate 1.5s infinite ease-in-out;border-color:#ECD078 #C02942 #542437 #53777A}
+.loader:before{border-width:10vh}
+.loader:after{width:30vh;height:30vh;border-width:2.5vh;animation-direction:reverse}
+@keyframes rotate {
+0%{transform:translate(-50%,-50%) rotate(0)}
+100%{transform:translate(-50%,-50%) rotate(360deg)}
+}
+.loader-remove{
+    opacity: o;
+    z-index: -10;
+}
+.lines
+	font-family: sans-serif
+	font-size: 32px
+body {
+    
+    font-family: Arial, sans-serif;
+    font-display: swap;
+    
+}
+
+
+nav {
+    width: 100%;
+    height: 60px;
+    background: #344051;
+    position: fixed;
+    z-index: 10;
+}
+
+.logo {
+    color: white;
+    font-size: 28px;
+    line-height: 60px;
+    float: left;
+    animation: comming 2s;
+    font-weight: 100;
+}
+
+.menu {
+    float: left;
+    animation: topshift 0.4s ease forwards;
+
+}
+
+.menu li {
+    float: left;
+    line-height: 60px;
+    color: white;
+    margin-right: 40px;
+    font-size: 16;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.menu li a {
+    text-decoration: none;
+}
+.menu li a .active {
+    color: aqua;
+}
+main {
+    width: 100%;
+    height: 100%;
+}
+.main {
+    position: relative;}
+.main {
+    width: 100%;
+    height: 100%;
+    background: url(../img/boy.png) 90% 100%/auto 85% no-repeat, url(../img/bg.jpg)center/cover no-repeat;
+
+}
+
+.titie_conteiner {
+    float: left;
+    width: 100%;
+
+    color: #2c384a;
+    text-align: center;
+}
+
+.titie_conteiner h1 {
+    font-size: 72px;
+    font-weight: bold;
+}
+
+.titie_conteiner h4 {
+    margin-top: 40px;
+    font-size: 22px;
+    color: #79818d;
+}
+
+.titie_conteiner input {
+    height: 40px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius: 5px;
+    color: #6d7682;
+    font-size: 13px;
+    padding: 0px 16px;
+    margin: 38px 14px 0px 14px;
+}
+
+@media screen and (max-width: 991px) {
+
+    .titie_conteiner,
+    .titie_conteiner h4,
+    .titie_conteiner input {
+        color: white;
+        position: relative;
+        z-index: 3;
+    }
+
+    .main {
+        position: relative;
+    }
+
+    .titie_conteiner input {
+        border: 2px solid #fff;
+    }
+    .revievs .title{
+        text-align: center;
+    }
+    .main::after{
+        content: '';
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        position: absolute;
+        background: rgba(0,0,0,0.4);
+        z-index: 2;
+        
+        
+    }
+}
+
+.white-btn:visited {
+    color: white;
+}
+
+
+.title img{
+    margin-top: 10px;}
+
+.menu li a {
+    transition: all 0.1s;
+    color: white;
+    transform: scale(1);
+    display: inline-block;
+
+}
+
+.menu li a:visited {
+    color: white;
+}
+
+.menu li a:hover {
+    color: #e88604;
+
+}
+
+.menu li a:active {
+    transform: scale(1.1);
+}
+
+.titie_conteiner input {
+    transition: all 0.2s;
+    transform: scale(1);
+}
+
+.titie_conteiner input:hover {
+    background: #344051;
+    color: white;
+}
+
+.titie_conteiner input:active {
+    transform: scale(1.1);
+}
+
+@keyframes comming {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes topshift {
+    from {
+        opacity: 0;
+        margin-top: -80px;
+    }
+
+    to {
+        opacity: 1;
+        margin-top: 0px;
+
+    }
+}
